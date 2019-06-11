@@ -1,0 +1,36 @@
+1. Keep only 2 apps in estack.json HttpPerf and TGen in google drive.
+2. Login as support user.
+3. Assign license to HttpPerf and TGen.
+4. Create mohan@admin.com(Mohan) account and assign HttpPerf to it.
+5. Login as mohan@admin.com
+6. Download HttpPerf and TGEN
+7. Create another admin mohan@admin1.com(Mohanadmin) and assign HttpPerf to him.
+8. Create an non-admin account mohan@user.com (Mohanuser) without assigning any app to him.
+9. Login as mohan@admin1.com and assign TGen app to himself.
+10.Open seperate browser and log in as mohan@user.com
+11.Request for both HttpPerf and TGEN app.
+12.login as mohan@admin.com and mohan@admin1.com and approve the app request from mohan@user.com
+13.login as mohan@user.com , click HttpPerf and create a profile(User-Profile-HTTPERF) by click and deploy.
+14.Click HttpPerf in mystore, click select profile and select the already saved profile(User-Profile-HTTPERF), click share button
+and share it only with one admin user(mohan@admin.com)
+15.Add Netperf app to estack.json and upload to google drive.
+16. Login as support user and assign licenses to Netperf app.
+17. Login as mohan@admin.com and download the Netperf app.
+18. Login as mohan@user.com and request for netperf app.
+19. Login as mohan@admin.com and approve the requested netperf app.
+20. Also click Netperf app in Estack store and assign the app to mohan@admin.com & mohan@admin1.com
+21. Click HttpPerf in Mystore, create a profile Admin-HTTPERF-PROFILE1 through save and deploy
+22. click HttpPerf in Mystore, click select profile, select Admin-HTTPERF-PROFILE1 and make it as default profile.
+23. Add HttpPerf-Basic app to estack.json and upload it to google drive.
+24. Login as mohan@admin.com , click Httpperf app in mystore, create profile(Admin-httperf-profilenew) through save and deploy.
+25. Click Httperf app in Mystore, select already create profile(Admin-httperf-profilenew) and share it only with mohan@user.com.
+26. Add all the remainng apps to estack.json.
+27. login as support user and assign license to all the new apps.
+28. Login as mohan@admin.com and download all the apps.
+29. Click Estack store and assign the new apps to all users.
+30. Login as mohan@user.com, click Storage IO app in Mystore create a profile(USer-StorageIO-profile1) through save and deploy.
+31. Click the already saved profile - User-StorageIO-profile1 and share it with mohan@admin.com
+32. Login as mohan@admin.com, click Strorage IO app, select profile, IT IS NOW LISTING HTTPERF DEFAULT PROFILES
+33. Click Httpperf in Mystore, create a new profile(Admin-HTTPERF-PROFILE-DEFAULT) through save and deploy.
+34. Click HttpPerf and select the already saved profile Admin-HTTPERF-PROFILE-DEFAULT and make it as default profile.
+35. Click Storage IO and click select profile, it is listing the Admin-HTTPERF-PROFILE-DEFAULT. 
